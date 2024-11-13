@@ -48,8 +48,9 @@ a:hover {
 
 .titulos {
     color: black;
-    font-size: 4em;
-    margin-top: 1.5em;
+    font-size: 42pt;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +59,7 @@ a:hover {
 
 .seccion-subtitulos {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     color: #F06868;
     position: relative;
 }
@@ -67,5 +68,7 @@ a:hover {
     height: 1px;
     color: #F06868;
     border-top-style: solid;
+    border-top-width: thin;
     margin: 7px 3%;
 }
+
