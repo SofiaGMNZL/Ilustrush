@@ -41,7 +41,7 @@ a:hover {
 	left: 0px;
 	top: 0px;
 	box-sizing: border-box;
-	background: #ffe4e49b;
+	background: #ffe4e4;
 }
 
 .logo-principal {
@@ -102,4 +102,19 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* index.html */
+
+.categorias-img {
+    margin: 0;
+    padding: 0;
+}
+
+.categorias-productos {
+    margin-top: 5em;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
