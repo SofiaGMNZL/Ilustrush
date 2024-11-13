@@ -4,6 +4,8 @@
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -72,3 +74,32 @@ a:hover {
     margin: 7px 3%;
 }
 
+.rectangulo-superior-footer {
+    background-color: #FFE4E4;
+    height: 155px;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconos-redes-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-redes-sociales {
+    margin-right: 15px;
+}
+
+.rectangulo-inferior-footer {
+    background-color: #F06868;
+    color: #FFFFFF;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
