@@ -27,20 +27,6 @@ a:hover {
 	color: #F06868;
 }
 
-#titulos {
-    color: black;
-    font-size: 4em;
-    display: flex;
-    justify-content: center;
-
-}
-
-.seccion-subtitulos {
-    text-align: center;
-    font-size: 24px;
-    color: #F06868;
-    position: relative;
-}
 
 .detalles-nav {
     display: flex;
@@ -54,4 +40,32 @@ a:hover {
 	top: 0px;
 	box-sizing: border-box;
 	background: #ffe4e49b;
+}
+
+.logo-principal {
+    margin-right: 30px;
+}
+
+.titulos {
+    color: black;
+    font-size: 4em;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.seccion-subtitulos {
+    text-align: center;
+    font-size: 24px;
+    color: #F06868;
+    position: relative;
+}
+
+.linea-separadora-subtitulos {
+    height: 1px;
+    color: #F06868;
+    border-top-style: solid;
+    margin: 7px 3%;
 }
