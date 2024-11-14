@@ -34,7 +34,7 @@ a:hover {
     display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 40px 5px;
+	padding: 40px 0px;
 	position: fixed;
 	width: 100%;
 	height: 67px;
@@ -63,7 +63,6 @@ a:hover {
     text-align: center;
     font-size: 18px;
     color: #F06868;
-    position: relative;
 }
 
 .linea-separadora-subtitulos {
@@ -107,14 +106,21 @@ a:hover {
 /* index.html */
 
 .categorias-img {
-    margin: 0;
-    padding: 0;
+box-shadow: 0px 1px 5px;
+padding: 15px;
+border-radius: 10px;
+cursor:pointer
+}
+
+.categorias-img:hover {
+    color: #F06868;
 }
 
 .categorias-productos {
-    margin-top: 5em;
+    margin-top: 5em; 
     gap: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
