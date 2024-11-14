@@ -167,3 +167,12 @@ a:hover {
   padding-left: 40px;
   padding-top: 10px;
 }
+
+.img-video-ig {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5em;
+  gap: 10px;
+  align-items: center;
+}
