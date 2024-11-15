@@ -71,17 +71,21 @@
           <h2>Contactos</h2>
           <div class="linea-separadora-subtitulos"></div>
         </div>
-      </section>
-      <section>
-        <div class="texto-contacto">
-          <h2 id="texto-scroll">¿Tenes dudas? ¡Acá estoy para ayudarte!</h2>
-          <br />
-          <p>
-            Si tienes dudas sobre las ilustraciones, el proceso de
-            personalización, envíos, o productos específicos como nuestras
-            agendas, postales, cuadros decorativos o ilustraciones botánicas en
-            acuarela, no dudes en escribirnos.
-          </p>
+          <div class="contenedor-texto-formulario">
+          <div class="texto-contacto">
+            <h4 class="h4-contacto">¿Tenes dudas? ¡Acá estoy para ayudarte!</h4>
+            <br/>
+            <p> Si tienes dudas sobre las ilustraciones, el proceso de personalización, envíos, o productos específicos como nuestras agendas,      postales, cuadros decorativos o ilustraciones botánicas en acuarela, no dudes en escribirnos. </p>
+          </div>
+          <div class="detalles-formulario-contacto">
+            <form method="post" action="" enctype="text/plain" class="medida-formulario-contacto">
+              <input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre" required>
+              <input type="email" name="Email" id="Email" maxlength="70" placeholder="Correo electrónico" required>
+              <input class="asunto-formulario" type="text" name="Asunto" id="Asunto" maxlength="100" placeholder="Asunto" required>
+              <textarea class="mensaje-formulario">Tu mensaje</textarea>
+              <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+          </div>
         </div>
       </section>
       <footer>

@@ -16,6 +16,22 @@ a:hover {
   color: #f06868;
 }
 
+input {
+  width: 42%;
+  height: 44px;
+  margin: 0% 4% 2% 0%;
+  color: #757474;
+  padding-left: 2%;
+  font-size: 16px;
+  border: 1px solid;
+}
+
+textarea {
+  padding-left: 2%;
+  font-size: 16px;
+  border: 1px solid;
+}
+
 .navegacion {
   list-style: none;
   display: flex;
@@ -50,6 +66,7 @@ a:hover {
   top: 0px;
   box-sizing: border-box;
   background: #ffe4e4;
+  z-index: 10; 
 }
 
 .logo-principal {
@@ -120,8 +137,13 @@ a:hover {
 
 .categorias-img:hover {
   color: #f06868;
+  transform: scale(1.05);
 }
 
+.categorias-img:active {
+  background-color: #d14646; 
+  transform: scale(0.95); 
+}
 .categorias-productos {
   margin-top: 5em;
   gap: 30px;
@@ -175,4 +197,71 @@ a:hover {
   margin-top: 5em;
   gap: 10px;
   align-items: center;
+}
+
+/* contacto.html */
+
+.texto-contacto {
+  font-size: 16px;
+  padding-left: 5em;
+  padding-right: 10em;
+  line-height: 1.3;
+}
+
+.h4-contacto {
+  font-weight: 700;
+}
+
+.contenedor-texto-formulario {
+  margin: 3% 0% 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  display: flex;
+}
+
+.detalles-formulario-contacto{
+	background-color: #fff3f3;
+	padding: 30px;
+	margin-right: 10%;
+	width: 30%;
+	height: 430px;
+	flex-shrink: 0;
+
+}
+
+.medida-formulario-contacto {
+  width: 107%;
+}
+
+.asunto-formulario {
+  width: 94%;
+	border: 1px solid;
+  color: #757474;
+}
+
+.mensaje-formulario {
+	width: 94%;
+	height: 244px;
+}
+
+.boton-enviar {
+  background-color: #f06868; 
+  color: #ffffff; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.boton-enviar:hover {
+  background-color: #e05757; 
+  transform: scale(1.05); 
+}
+
+.boton-enviar:active {
+  background-color: #d14646; 
+  transform: scale(0.95); 
 }
