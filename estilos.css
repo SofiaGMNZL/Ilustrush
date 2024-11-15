@@ -66,7 +66,7 @@ textarea {
   top: 0px;
   box-sizing: border-box;
   background: #ffe4e4;
-  z-index: 10; 
+  z-index: 10;
 }
 
 .logo-principal {
@@ -152,8 +152,8 @@ textarea {
 }
 
 .categorias-img:active {
-  background-color: #f06868; 
-  transform: scale(0.95); 
+  background-color: #f06868;
+  transform: scale(0.95);
 }
 .categorias-productos {
   margin-top: 5em;
@@ -166,7 +166,6 @@ textarea {
 /* quien-soy.html */
 
 .p-quien-soy {
-
   line-height: 1.3;
   margin-top: 5em;
   margin-left: 9em;
@@ -231,14 +230,13 @@ textarea {
   display: flex;
 }
 
-.detalles-formulario-contacto{
-	background-color: #fff3f3;
-	padding: 30px;
-	margin-right: 10%;
-	width: 30%;
-	height: 430px;
-	flex-shrink: 0;
-
+.detalles-formulario-contacto {
+  background-color: #fff3f3;
+  padding: 30px;
+  margin-right: 10%;
+  width: 30%;
+  height: 430px;
+  flex-shrink: 0;
 }
 
 .medida-formulario-contacto {
@@ -247,32 +245,32 @@ textarea {
 
 .asunto-formulario {
   width: 94%;
-	border: 1px solid;
+  border: 1px solid;
   color: #757474;
 }
 
 .mensaje-formulario {
-	width: 94%;
-	height: 244px;
+  width: 94%;
+  height: 244px;
 }
 
 .boton-enviar {
-  background-color: #f06868; 
-  color: #ffffff; 
-  border: none; 
-  padding: 10px 20px; 
-  font-size: 16px; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease, transform 0.2s ease; 
+  background-color: #f06868;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .boton-enviar:hover {
-  background-color: #e05757; 
-  transform: scale(1.05); 
+  background-color: #e05757;
+  transform: scale(1.05);
 }
 
 .boton-enviar:active {
-  background-color: #d14646; 
-  transform: scale(0.95); 
+  background-color: #d14646;
+  transform: scale(0.95);
 }
