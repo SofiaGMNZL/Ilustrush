@@ -126,6 +126,17 @@ textarea {
   align-items: center;
 }
 
+.texto-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.precio-productos {
+  font-weight: 700;
+}
+
 /* index.html */
 
 .categorias-img {
@@ -141,7 +152,7 @@ textarea {
 }
 
 .categorias-img:active {
-  background-color: #d14646; 
+  background-color: #f06868; 
   transform: scale(0.95); 
 }
 .categorias-productos {
