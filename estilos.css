@@ -277,3 +277,24 @@ textarea {
 
 /* reseñas.html */
 
+.reseñas-completas {
+  margin-top: 5em;
+  font-size: 13px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  background-color: #ffe4e4;
+  padding: 30px;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #b8b7b7;
+  text-align: center;
+}
+
+.grupo-reseñas{ 
+
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  justify-items: center;
+}
