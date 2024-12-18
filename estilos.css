@@ -291,8 +291,7 @@ textarea {
   text-align: center;
 }
 
-.grupo-reseñas{ 
-
+.grupo-reseñas {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   justify-content: center;
